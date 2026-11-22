@@ -7,7 +7,7 @@ Video explicativo resumido: https://www.youtube.com/watch?v=fbjfncWlxTo (A docum
 Alunos: 
 
  * Esthefanny Sousa Farias
- * Matheus Lucianos
+ * Matheus Luciano
  * Antonio Iranilson Honorato
 
 Cada serviço vive no seu próprio repositório e roda na **AWS (São Paulo, `sa-east-1`)**, em dois ambientes: máquinas **EC2** e um cluster **Kubernetes (EKS)**. O repositório principal, [`nego-pato`](https://github.com/pato-nego/nego-pato), reúne todos eles como submódulos e guarda a infraestrutura do cluster.
