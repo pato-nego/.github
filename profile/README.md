@@ -2,6 +2,14 @@
 
 Loja online construída com **microsserviços**: o usuário se cadastra, entra com login e faz pedidos de produtos com preço em dólar, podendo ver o total em reais pela cotação PTAX do Banco Central. Projeto da disciplina de Microsserviços do **Insper** (2026.2).
 
+Video explicativo resumido: https://www.youtube.com/watch?v=fbjfncWlxTo (A documentação completa com vídeo demo encontra-se logo abaixo)
+
+Alunos: 
+
+ * Esthefanny Sousa Farias
+ * Matheus Lucianos
+ * Antonio Iranilson Honorato
+
 Cada serviço vive no seu próprio repositório e roda na **AWS (São Paulo, `sa-east-1`)**, em dois ambientes: máquinas **EC2** e um cluster **Kubernetes (EKS)**. O repositório principal, [`nego-pato`](https://github.com/pato-nego/nego-pato), reúne todos eles como submódulos e guarda a infraestrutura do cluster.
 
 📖 **Documentação completa:** [pato-nego.github.io/nego-pato](https://pato-nego.github.io/nego-pato/), com a demonstração da compra, Kubernetes, testes de carga e custos.
